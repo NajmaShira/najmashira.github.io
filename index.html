@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html lang="id" class="js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Najma Shira — writer, researcher, and creator. Explore her writings, projects, and the things she studies."
+    >
+
+    <meta name="author" content="Najma Shira">
+
+    <meta name="theme-color" content="#0d0f12">
+
+    <link rel="canonical" href="https://najmashira.github.io/">
+
+    <title>Najma Shira</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg">
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Najma Shira">
+    <meta
+        property="og:description"
+        content="Writer, researcher, and creator. Explore Najma's writings, projects, and the things she studies."
+    >
+    <meta property="og:url" content="https://najmashira.github.io/">
+    <meta property="og:site_name" content="Najma Shira">
+
+    <!-- X / Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Najma Shira">
+    <meta
+        name="twitter:description"
+        content="Writer, researcher, and creator. Explore Najma's writings, projects, and the things she studies."
+    >
+
+    <!-- Theme initialization -->
+    <script>
+        (() => {
+            const savedTheme = localStorage.getItem("theme");
+            const systemPrefersLight =
+                window.matchMedia("(prefers-color-scheme: light)").matches;
+
+            const theme =
+                savedTheme || (systemPrefersLight ? "light" : "dark");
+
+            document.documentElement.dataset.theme = theme;
+        })();
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+<header>
+<nav>
+    <a href="/" aria-label="Najma Shira — Home">May's Home</a>
+
+    <div class="nav-actions">
+        <div class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#exploring">Exploring</a>
+            <a href="#elsewhere">Elsewhere</a>
+        </div>
+
+        <button
+            id="theme-toggle"
+            type="button"
+            aria-label="Switch to light theme"
+        >
+            <span aria-hidden="true">☾</span>
+        </button>
+
+        <button
+            id="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+            aria-label="Open navigation"
+        >
+            <span aria-hidden="true">☰</span>
+        </button>
+    </div>
+
+    <div id="mobile-nav" class="mobile-nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#exploring">Exploring</a>
+        <a href="#elsewhere">Elsewhere</a>
+    </div>
+</nav>
+</header>
+
+
+<main>
+
+    <!-- Hero -->
+<section id="hero">
+    <p class="hero-kicker">A little corner of the web</p>
+
+    <h1>Najma Shira</h1>
+
+    <p class="hero-description">
+        <span>Writer, researcher, and creator.</span>
+        <span>
+            Exploring questions, preserving what matters,
+            and making things along the way.
+        </span>
+    </p>
+
+</section>
+
+    <!-- Projects -->
+<section id="projects" class="reveal">
+    <header>
+        <p>My corner of the web</p>
+        <h2>Projects</h2>
+    </header>
+
+    <article>
+        <span class="project-number">01</span>
+
+        <div class="project-info">
+            <h3>May's Notes</h3>
+            <p>
+                Writings, reflections, and notes on things worth remembering,
+                exploring the thoughts, questions, stories, 
+                and little observations that accompany my journey.
+            </p>
+        </div>
+
+        <a href="https://maysnotes.github.io/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Visit <span aria-hidden="true">↗</span>
+        </a>
+    </article>
+
+
+    <article>
+        <span class="project-number">02</span>
+
+        <div class="project-info">
+            <h3>May's Bible</h3>
+            <p>
+                A Bible study project built from the NA28 Greek New Testament
+                and WLC Hebrew Tanakh, with word-by-word translation,
+                Strong's numbers, and grammatical analysis.
+            </p>
+        </div>
+
+        <a href="https://maysbible.gitlab.io/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Visit <span aria-hidden="true">↗</span>
+        </a>
+    </article>
+
+</section>
+
+<div class="section-divider reveal">
+    <span>
+        "Ruminating on questions, seeking beauty in the deen, reuniting with her."
+        <br>
+        <small>─ Najma's Epigraph ─</small>
+    </span>
+        <!-- <span>study ✦ write ✦ create</span> -->
+</div>
+
+    <!-- About -->
+<section id="about" class="reveal">
+    <div class="about-image">
+        <img
+            src="najma_3x4.jpg"
+            alt="Najma Shira"
+        >
+    </div>
+
+    <div class="about-content">
+        <header>
+            <p>A little about me</p>
+            <h2>About Najma</h2>
+        </header>
+
+        <p>
+            I'm Najma Shira, a writer and content creator who enjoys
+            ruminating on questions, studying the things that fascinate me,
+            and turning what I learn into something worth keeping.
+        </p>
+
+        <a href="https://github.com/NajmaShira">More about me <span aria-hidden="true">→</span></a>
+        <!-- <a href="/about/">More about me <span aria-hidden="true">→</span></a> -->
+    </div>
+</section>
+
+    <!-- Currently Exploring -->
+<section id="exploring" class="reveal">
+    <header>
+        <p>What occupies my mind lately</p>
+        <h2>Currently Exploring</h2>
+    </header>
+
+    <ul class="exploring-list">
+        <li>✦ Qur'anic Studies</li>
+        <li>✦ Christology</li>
+        <li>✦ Biblical Texts</li>
+        <li>✦ Ancient History</li>
+        <li>✦ Writing</li>
+        <li>✦ Technology</li>
+    </ul>
+</section>
+
+    <!-- Elsewhere -->
+    <section id="elsewhere" class="reveal">
+        <header>
+            <p>Find me elsewhere</p>
+            <h2>Elsewhere</h2>
+        </header>
+
+        <nav class="social-links" aria-label="Social media">
+            <a href="https://instagram.com/najma_shira" target="_blank" rel="noopener noreferrer">
+                Instagram
+                <span aria-hidden="true">↗</span>
+            </a>
+
+            <a href="https://youtube.com/@NajmaShira" target="_blank" rel="noopener noreferrer">
+                YouTube
+                <span aria-hidden="true">↗</span>
+            </a>
+
+            <a href="https://x.com/najma_shira" target="_blank" rel="noopener noreferrer">
+                X
+                <span aria-hidden="true">↗</span>
+            </a>
+<!-- 
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                GitHub
+                <span aria-hidden="true">↗</span>
+            </a>
+ -->
+            <a href="https://tiktok.com/@najmashira" target="_blank" rel="noopener noreferrer">
+                TikTok
+                <span aria-hidden="true">↗</span>
+            </a>
+        </nav>
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-brand">
+        <span>Najma Shira</span>
+        <p>Built with curiosity.</p>
+    </div>
+
+    <div class="footer-right">
+        <a href="#top">Back to top ↑</a>
+        <p>&copy; 2026</p>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
