@@ -577,7 +577,8 @@ Currently Exploring
 }
 
 .exploring-list li:not(:last-child)::after {
-    content: "Â·";
+/*    content: "Â·";*/
+    content: " ";
     display: inline-block;
     margin-inline: 0.6em;
     color: var(--border);
